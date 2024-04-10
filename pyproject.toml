@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kllamma"
+version = "0.1.0"
+description = "To create a single API endpoint that refines a string LLM prompt using the GPT4 model via the OpenAI Python package, follow these steps aligned with the specified tech stack:"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+fastapi = "^0.78.0"
+openai = "*"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
